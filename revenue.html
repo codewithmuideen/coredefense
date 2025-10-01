@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="au theme template">
+    <meta name="author" content="Hau Nguyen">
+    <meta name="keywords" content="au theme template">
+
+    <!-- Title Page-->
+    <title>Admin Dashboard - Coredefense</title>
+    <link rel="shortcut icon" href="./images/fav-icon.png" type="image/x-icon">
+    <!-- Fontfaces CSS-->
+    <link href="css/font-face.css" rel="stylesheet" media="all">
+    <link href="vendor/fontawesome-7.0.1/css/all.min.css" rel="stylesheet" media="all">
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+
+    <!-- Bootstrap CSS-->
+    <link href="vendor/bootstrap-5.3.8.min.css" rel="stylesheet" media="all">
+
+    <!-- Vendor CSS-->
+    <link href="css/aos.css" rel="stylesheet" media="all">
+    <link href="vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+    <link href="css/swiper-bundle-11.2.10.min.css" rel="stylesheet" media="all">
+    <link href="vendor/perfect-scrollbar/perfect-scrollbar-1.5.6.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/theme.css" rel="stylesheet" media="all">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+   
+        
+        <!-- MENU SIDEBAR-->
+       <aside class="menu-sidebar d-none d-lg-block"
+    style="background: linear-gradient(160deg, #1E6AFF, #000000); width: 260px; color: white; font-family: Arial, sans-serif; box-shadow: 2px 0px 10px rgba(0,0,0,0.4);">
+
+    <!-- Logo -->
+    <div class="logo" style="text-align: center; padding: 25px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+        <a href="#">
+            <img src="images/icon/logo.png" alt="Cool Admin" style="width: 140px; transition: transform 0.3s ease;">
+        </a>
+    </div>
+
+    <!-- Navigation -->
+    <div class="menu-sidebar__content js-scrollbar1">
+        <nav class="navbar-sidebar">
+            <ul class="list-unstyled navbar__list" style="padding: 0; margin: 0;">
+
+                <!-- Menu Item Template -->
+                <li style="transition: all 0.3s ease;">
+                    <a href="dashboard.html" class="active"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; font-weight: bold; border-left: 4px solid #ffffff; transition: all 0.3s ease; background: rgba(255,255,255,0.05);">
+                        <i class="fas fa-tachometer-alt" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Dashboard</span>
+                    </a>
+                </li>
+
+                <!-- Other Menu Items -->
+                <li style="transition: all 0.3s ease;">
+                    <a href="revenue.html"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; transition: all 0.3s ease;">
+                        <i class="fas fa-chart-line" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Revenue Chart</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="transaction.html"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; transition: all 0.3s ease;">
+                        <i class="fas fa-exchange-alt" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Transactions Summary</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="feedback.html"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; transition: all 0.3s ease;">
+                        <i class="fas fa-comments" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Client Feedback</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="incident_vulnerability.html"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; transition: all 0.3s ease;">
+                        <i class="fas fa-shield-alt" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Incident & Vulnerability</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; transition: all 0.3s ease;">
+                        <i class="fas fa-file-alt" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Reports</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; transition: all 0.3s ease;">
+                        <i class="fas fa-cogs" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; transition: all 0.3s ease;">
+                        <i class="fas fa-question-circle" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Help & Support</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; transition: all 0.3s ease;">
+                        <i class="fas fa-sign-out-alt" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Logout</span>
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+</aside>
+
+        <!-- END MENU SIDEBAR-->
+
+        <!-- PAGE CONTAINER-->
+        <div class="page-container">
+            <!-- HEADER DESKTOP-->
+            <header class="header-desktop">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="header-wrap">
+                            <form class="form-header" action="" method="POST">
+                                <input class="au-input au-input--xl" type="text" name="search" placeholder="Search for datas &amp; reports..." />
+                                <button class="au-btn--submit" type="submit">
+                                    <i class="zmdi zmdi-search"></i>
+                                </button>
+                            </form>
+                            <div class="header-button">
+                                <div class="noti-wrap">
+                                    <div class="noti__item js-item-menu">
+                                        <i class="zmdi zmdi-comment-more" style="color: black;"></i>
+                                        <span class="quantity">1</span>
+                                        <div class="mess-dropdown js-dropdown">
+                                            <div class="mess__title">
+                                                <p>You have 2 news message</p>
+                                            </div>
+                                            <div class="mess__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/mary.png" alt="Henry Evelyn" />
+                                                </div>
+                                                <div class="content">
+                                                    <h6>Henry Evelyn</h6>
+                                                    <p>Have sent a photo</p>
+                                                    <span class="time">3 min ago</span>
+                                                </div>
+                                            </div>
+                                            <div class="mess__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/support.jpeg" alt="Afolabi Sekinat" />
+                                                </div>
+                                                <div class="content">
+                                                    <h6>Afolabi Sekinat</h6>
+                                                    <p>You are now connected on message</p>
+                                                    <span class="time">Yesterday</span>
+                                                </div>
+                                            </div>
+                                            <div class="mess__footer">
+                                                <a href="#">View all messages</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="noti__item js-item-menu">
+                                        <i class="zmdi zmdi-email" style="color: black;"></i>
+                                        <span class="quantity">1</span>
+                                        <div class="email-dropdown js-dropdown">
+                                            <div class="email__title">
+                                                <p>You have 3 New Emails</p>
+                                            </div>
+                                            <div class="email__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/account.jpg" alt="Cynthia Daniel" />
+                                                </div>
+                                                <div class="content">
+                                                    <p>Meeting about new payment...</p>
+                                                    <span>Cynthia Daniel, 3 min ago</span>
+                                                </div>
+                                            </div>
+                                            <div class="email__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/account.jpg" alt="Cynthia Daniel" />
+                                                </div>
+                                                <div class="content">
+                                                    <p>Meeting about new payment...</p>
+                                                    <span>Cynthia Daniel, Yesterday</span>
+                                                </div>
+                                            </div>
+                                            <div class="email__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/hr.jpg" alt="Muideen Akinola" />
+                                                </div>
+                                                <div class="content">
+                                                    <p>Meeting about new dashboard...</p>
+                                                    <span>Muideen, September 28, 2025</span>
+                                                </div>
+                                            </div>
+                                            <div class="email__footer">
+                                                <a href="#">See all emails</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="noti__item js-item-menu">
+                                        <i class="zmdi zmdi-notifications" style="color: black;"></i>
+                                        <span class="quantity">3</span>
+                                        <div class="notifi-dropdown js-dropdown">
+                                            <div class="notifi__title">
+                                                <p>You have 3 Notifications</p>
+                                            </div>
+                                            <div class="notifi__item">
+                                                <div class="bg-c1 img-cir img-40">
+                                                    <i class="zmdi zmdi-email-open"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <p>You got a email notification</p>
+                                                    <span class="date">January 15, 2025 14:30</span>
+                                                </div>
+                                            </div>
+                                            <div class="notifi__item">
+                                                <div class="bg-c2 img-cir img-40">
+                                                    <i class="zmdi zmdi-account-box"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <p>Your account has been blocked</p>
+                                                    <span class="date">January 15, 2025 14:30</span>
+                                                </div>
+                                            </div>
+                                            <div class="notifi__item">
+                                                <div class="bg-c3 img-cir img-40">
+                                                    <i class="zmdi zmdi-file-text"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <p>You got a new file</p>
+                                                    <span class="date">January 15, 2025 14:30</span>
+                                                </div>
+                                            </div>
+                                            <div class="notifi__footer">
+                                                <a href="#">All notifications</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="account-wrap">
+                                    <div class="account-item clearfix js-item-menu">
+                                        <div class="image">
+                                            <img style="border-radius: 50%" src="images/icon/hod.jpg" alt="Innocent Paul O." />
+                                        </div>
+                                        <div class="content">
+                                            <a class="js-acc-btn" href="#">Innocent Paul O.</a>
+                                        </div>
+                                        <div class="account-dropdown js-dropdown">
+                                            <div class="info clearfix">
+                                                <div class="image">
+                                                    <a href="#">
+                                                        <img  style="border-radius: 50%" src="images/icon/hod.jpg" alt="Innocent Paul O." />
+                                                    </a>
+                                                </div>
+                                                <div class="content">
+                                                    <h5 class="name">
+                                                        <a href="#">Innocent Paul O.</a>
+                                                    </h5>
+                                                    <span class="email">admin@coredefense.com</span>
+                                                </div>
+                                            </div>
+                                            <div class="account-dropdown__body">
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">
+                                                        <i class="zmdi zmdi-account"></i>Account</a>
+                                                </div>
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">
+                                                        <i class="zmdi zmdi-settings"></i>Setting</a>
+                                                </div>
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">
+                                                        <i class="zmdi zmdi-money-box"></i>Billing</a>
+                                                </div>
+                                            </div>
+                                            <div class="account-dropdown__footer">
+                                                <a href="#">
+                                                    <i class="zmdi zmdi-power"></i>Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- HEADER DESKTOP-->
+
+            <!-- MAIN CONTENT-->
+            <div class="main-content">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+
+                                <small style="color: #000000;">Revenue/Dashboard</small>
+                                <div class="overview-wrap">
+                                    <h2 class="title-1">Revenue</h2>
+                                   
+<!-- <span style="
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #000000; /* Black text */
+    background: linear-gradient(135deg, #FFFFFF, #F7F9FC); /* White + Light Gray */
+    padding: 10px 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    border: 1px solid #E0E4E8;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+">
+    <i class="fas fa-file-invoice-dollar" style="font-size: 1.3rem; color: #1E6AFF;"></i>
+    Available Balance - ₦185M | £45,000
+</span> -->
+
+                                    <button class="au-btn au-btn-icon au-btn--blue">
+                                        <i class="zmdi zmdi-plus"></i>add revenue</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+<div class="row m-t-25" style="padding: 10px;">
+  <div class="col-12">
+    <div style="display: flex; flex-direction: column; justify-content: center; padding: 30px 25px; border-radius: 0px; background: linear-gradient(135deg, #1E6AFF, #0056d2); box-shadow: 0 8px 24px rgba(0,0,0,0.15); color: #fff; position: relative; overflow: hidden;">
+      
+      <!-- Decorative circles -->
+      <div style="position: absolute; top: -25px; left: -25px; width: 100px; height: 100px; background: rgba(255,255,255,0.08); border-radius: 50%;"></div>
+      <div style="position: absolute; bottom: -30px; right: -30px; width: 120px; height: 120px; background: rgba(255,255,255,0.05); border-radius: 50%;"></div>
+
+      <!-- Icon + Amounts -->
+      <div style="display: flex; align-items: center; gap: 15px; z-index: 2;">
+        <i class="fas fa-money-bill-wave" style="font-size: 2.8rem; color: #fff;"></i>
+        <h2 style="font-size: 2.4rem; font-weight: 800; margin: 0; display: flex; align-items: center; gap: 560px;">
+          <span>₦550,205,175</span>
+          <span style="font-size: 1.6rem; font-weight: 600; color: #f1f1f1; display: flex; align-items: center; gap: 10px;">
+            <i class="fas fa-circle" style="font-size: 20px; color: #f1f1f1;"></i>
+            <span>£835,641</span>
+          </span>
+        </h2>
+      </div>
+
+      <!-- Date Range -->
+      <p style="font-size: 1rem; color: #e0e0e0; margin: 10px 0 0 55px; z-index: 2;">
+        Jan 2024 - Apr 2025
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="row" style="display: flex; gap: 12px; flex-wrap: wrap; margin-top: 25px;">
+    <!-- Monthly Revenue -->
+    <div class="col-lg-4" style="flex: 1; min-width: 320px;">
+        <div class="au-card" style="background: #FFF; border-radius: 0; clip-path: polygon(0 0, 100% 0, 100% 90%, 95% 100%, 0 100%); box-shadow: 0 4px 12px rgba(0,0,0,0.08); height: 360px;">
+            <div style="display: flex; flex-direction: column; height: 100%; align-items: center; justify-content: center;">
+                <h4 style="font-size: 1.1rem; font-weight: 700; color: #1E6AFF; margin-bottom: 10px; display: flex; align-items: center; gap: 6px;">
+                    Monthly Revenue <i class="fas fa-money-bill-wave"></i>
+                </h4>
+                <div style="font-size: 1.5rem; font-weight: 700; color: #333; margin-bottom: 15px;">
+                    ₦75,600,000 &nbsp; £115,500
+                </div>
+                <canvas id="month-chart" style="width: 95% !important; max-width: 350px; height: 260px !important;"></canvas>
+            </div>
+        </div>
+    </div>
+
+   <!-- YTD + Average + Partners -->
+<div class="col-lg-4 col-md-6 col-sm-12" style="min-width: 320px;">
+    <div class="au-card" style="border-radius: 0; clip-path: polygon(0 0, 100% 0, 100% 90%, 95% 100%, 0 100%);">
+        <h4 style="font-size: 1.1rem; font-weight: 700; color: #1E6AFF; margin-bottom: 10px; display: flex; align-items: center; gap: 6px;">
+            YTD Revenue <i class="fas fa-money-bill-wave"></i>
+        </h4>
+        <div style="font-size: 1.3rem; font-weight: 600; color: #333;">₦320,000,000</div>
+        <div style="font-size: 1.1rem; font-weight: 500; color: #666;">£485,500</div>
+    </div>
+
+    <div class="au-card" style="margin: 4px 0; border-radius: 0; clip-path: polygon(0 0, 100% 0, 100% 90%, 95% 100%, 0 100%);">
+        <h4 style="font-size: 1.1rem; font-weight: 700; color: #1E6AFF; margin-bottom: 10px; display: flex; align-items: center; gap: 6px;">
+            Average Revenue by Client <i class="fas fa-users"></i>
+        </h4>
+        <div style="font-size: 1.3rem; font-weight: 600; color: #333;">₦12,200,000</div>
+        <div style="font-size: 1.1rem; font-weight: 500; color: #666;">£18,500</div>
+    </div>
+
+    <div class="au-card" style="border-radius: 0;clip-path: polygon(0 0, 100% 0, 100% 90%, 95% 100%, 0 100%);">
+        <h4 style="font-size: 1.1rem; font-weight: 700; color: #1E6AFF; margin-bottom: 15px; display: flex; align-items: center; gap: 6px;">
+            Top 3 Partners <i class="fas fa-star"></i>
+        </h4>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+            <li style="display: flex; justify-content:  space-between; padding: 8px 0; border-bottom: 1px solid #eee;">
+                <span>Creditcliq</span><span style="font-weight: 600;">₦55.6M</span>
+            </li>
+            <li style="display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #eee;">
+                <span>Alfuttaim Energy</span><span style="font-weight: 600;">₦45.2M</span>
+            </li>
+            <li style="display: flex; justify-content: space-between; padding: 8px 0;">
+                <span>Gamina Manufact</span><span style="font-weight: 600;">₦28.4M</span>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+    <!-- Pie Charts -->
+    <div class="col-lg-4" style="flex: 1; min-width: 220px;">
+        <div class="au-card" style="background: #FFF;  border-radius: 0; clip-path: polygon(0 0, 100% 0, 100% 90%, 95% 100%, 0 100%); box-shadow: 0 4px 12px rgba(0,0,0,0.08); height: 295px; margin-bottom: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+            <h4 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 10px; color: #1E6AFF; display: flex; align-items: center; gap: 6px;">
+                Revenue by Plan <i class="fas fa-chart-pie"></i>
+            </h4>
+            <canvas id="plan-chart" style="width: 80% !important; max-width: 220px; height: 180px !important;"></canvas>
+        </div>
+
+        <div class="au-card" style="background: #FFF;  border-radius: 0; clip-path: polygon(0 0, 100% 0, 100% 90%, 95% 100%, 0 100%); box-shadow: 0 4px 12px rgba(0,0,0,0.08); height: 295px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+            <h4 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 10px; color: #1E6AFF; display: flex; align-items: center; gap: 6px;">
+                Revenue by Region <i class="fas fa-globe"></i>
+            </h4>
+            <canvas id="region-chart" style="width: 80% !important; max-width: 220px; height: 180px !important;"></canvas>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Monthly Revenue Line Chart
+    const monthCtx = document.getElementById('month-chart').getContext('2d');
+    new Chart(monthCtx, {
+        type: 'line',
+        data: {
+            labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            datasets: [{
+                label: 'Monthly Revenue',
+                data: [10, 12, 18, 25, 28, 35, 38, 45, 48, 55, 60, 68],
+                backgroundColor: 'rgba(30,106,255,0.15)',
+                borderColor: '#1E6AFF',
+                borderWidth: 2,
+                fill: true,
+                tension: 0.4
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { display: false }},
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        callback: val => '₦' + val + 'M'
+                    }
+                }
+            }
+        }
+    });
+
+    // Doughnut - Revenue by Plan
+    // const planCtx = document.getElementById('plan-chart').getContext('2d');
+    // new Chart(planCtx, {
+    //     type: 'doughnut',
+    //     data: {
+    //         labels: ['Basic', 'Growth', 'Premium', 'Enterprise'],
+    //         datasets: [{
+    //             data: [10, 20, 40, 30],
+    //             backgroundColor: ['#1E6AFF','#A0C4FF','#6C92FA','#4A7DF9'],
+    //             borderWidth: 0
+    //         }]
+    //     },
+    //     options: {
+    //         responsive: true,
+    //         maintainAspectRatio: true,
+    //         plugins: { legend: { display: true }},
+    //         cutout: '70%'
+    //     }
+    // });
+
+    // // Doughnut - Revenue by Region
+    // const regionCtx = document.getElementById('region-chart').getContext('2d');
+    // new Chart(regionCtx, {
+    //     type: 'doughnut',
+    //     data: {
+    //         labels: ['Africa', 'North', 'Europe', 'Asia'],
+    //         datasets: [{
+    //             data: [50, 25, 15, 10],
+    //             backgroundColor: ['#1E6AFF','#A0C4FF','#6C92FA','#4A7DF9'],
+    //             borderWidth: 0
+    //         }]
+    //     },
+    //     options: {
+    //         responsive: true,
+    //         maintainAspectRatio: true,
+    //         plugins: { legend: { display: true }},
+    //         cutout: '70%'
+    //     }
+    // });
+
+// Common function to generate legends with percentage
+function generateLegendLabels(chart) {
+    const data = chart.data.datasets[0].data;
+    const total = data.reduce((a, b) => a + b, 0);
+    const labels = chart.data.labels;
+    const colors = chart.data.datasets[0].backgroundColor;
+
+    return labels.map((label, i) => {
+        const value = data[i];
+        const percentage = ((value / total) * 100).toFixed(1) + '%';
+        return {
+            text: `${label} ${percentage}`,
+            fillStyle: colors[i],
+            strokeStyle: '#fff',
+            lineWidth: 2,
+            hidden: isNaN(value) || chart.getDatasetMeta(0).data[i].hidden,
+            index: i
+        };
+    });
+}
+
+// Doughnut - Revenue by Plan
+const planCtx = document.getElementById('plan-chart').getContext('2d');
+new Chart(planCtx, {
+    type: 'doughnut',
+    data: {
+        labels: ['Basic', 'Growth', 'Premium', 'Enterprise'],
+        datasets: [{
+            data: [10, 20, 40, 30],
+            backgroundColor: ['#1E6AFF','#A0C4FF','#6C92FA','#4A7DF9'],
+            borderWidth: 0
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        cutout: '70%',
+        plugins: {
+            legend: {
+                display: true,
+                position: 'bottom',
+                labels: {
+                    generateLabels: generateLegendLabels
+                }
+            }
+        }
+    }
+});
+
+// Doughnut - Revenue by Region
+const regionCtx = document.getElementById('region-chart').getContext('2d');
+new Chart(regionCtx, {
+    type: 'doughnut',
+    data: {
+        labels: ['Africa', 'North', 'Europe', 'Asia'],
+        datasets: [{
+            data: [50, 25, 15, 10],
+            backgroundColor: ['#1E6AFF','#A0C4FF','#6C92FA','#4A7DF9'],
+            borderWidth: 0
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        cutout: '70%',
+        plugins: {
+            legend: {
+                display: true,
+                position: 'bottom',
+                labels: {
+                    generateLabels: generateLegendLabels
+                }
+            }
+        }
+    }
+});
+
+
+});
+</script>
+
+
+                       
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="copyright">
+                                    <p>Copyright © 2025 Coredefense. All rights reserved. Developed by <a href="" rel="nofollow" target="_blank">Coredefense</a>.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END MAIN CONTENT-->
+            <!-- END PAGE CONTAINER-->
+        </div>
+
+    </div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+    <!-- Jquery JS-->
+    <script src="js/vanilla-utils.js"></script>
+    <!-- Bootstrap JS-->
+    <script src="vendor/bootstrap-5.3.8.bundle.min.js"></script>
+    <!-- Vendor JS       -->
+    <script src="vendor/perfect-scrollbar/perfect-scrollbar-1.5.6.min.js"></script>
+    <script src="vendor/chartjs/chart.umd.js-4.5.0.min.js"></script>
+
+    <!-- Main JS-->
+    <script src="js/bootstrap5-init.js"></script>
+    <script src="js/main-vanilla.js"></script>
+    <script src="js/swiper-bundle-11.2.10.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/modern-plugins.js"></script>
+
+</body>
+
+</html>
+<!-- end document-->

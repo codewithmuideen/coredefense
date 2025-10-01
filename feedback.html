@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="au theme template">
+    <meta name="author" content="Hau Nguyen">
+    <meta name="keywords" content="au theme template">
+
+    <!-- Title Page-->
+    <title>Admin Dashboard - Coredefense</title>
+    <link rel="shortcut icon" href="./images/fav-icon.png" type="image/x-icon">
+    <!-- Fontfaces CSS-->
+    <link href="css/font-face.css" rel="stylesheet" media="all">
+    <link href="vendor/fontawesome-7.0.1/css/all.min.css" rel="stylesheet" media="all">
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+
+    <!-- Bootstrap CSS-->
+    <link href="vendor/bootstrap-5.3.8.min.css" rel="stylesheet" media="all">
+
+    <!-- Vendor CSS-->
+    <link href="css/aos.css" rel="stylesheet" media="all">
+    <link href="vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+    <link href="css/swiper-bundle-11.2.10.min.css" rel="stylesheet" media="all">
+    <link href="vendor/perfect-scrollbar/perfect-scrollbar-1.5.6.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/theme.css" rel="stylesheet" media="all">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+   
+        
+        <!-- MENU SIDEBAR-->
+       <aside class="menu-sidebar d-none d-lg-block"
+    style="background: linear-gradient(160deg, #1E6AFF, #000000); width: 260px; color: white; font-family: Arial, sans-serif; box-shadow: 2px 0px 10px rgba(0,0,0,0.4);">
+
+    <!-- Logo -->
+    <div class="logo" style="text-align: center; padding: 25px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+        <a href="#">
+            <img src="images/icon/logo.png" alt="Cool Admin" style="width: 140px; transition: transform 0.3s ease;">
+        </a>
+    </div>
+
+    <!-- Navigation -->
+    <div class="menu-sidebar__content js-scrollbar1">
+        <nav class="navbar-sidebar">
+            <ul class="list-unstyled navbar__list" style="padding: 0; margin: 0;">
+
+                <!-- Menu Item Template -->
+                <li style="transition: all 0.3s ease;">
+                    <a href="dashboard.html" class="active"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; font-weight: bold; border-left: 4px solid #ffffff; transition: all 0.3s ease; background: rgba(255,255,255,0.05);">
+                        <i class="fas fa-tachometer-alt" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Dashboard</span>
+                    </a>
+                </li>
+
+                <!-- Other Menu Items -->
+                <li style="transition: all 0.3s ease;">
+                    <a href="revenue.html"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; transition: all 0.3s ease;">
+                        <i class="fas fa-chart-line" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Revenue Chart</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="transaction.html"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; transition: all 0.3s ease;">
+                        <i class="fas fa-exchange-alt" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Transactions Summary</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="feedback.html"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; transition: all 0.3s ease;">
+                        <i class="fas fa-comments" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Client Feedback</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="incident_vulnerability.html"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; transition: all 0.3s ease;">
+                        <i class="fas fa-shield-alt" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Incident & Vulnerability</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; transition: all 0.3s ease;">
+                        <i class="fas fa-file-alt" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Reports</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; transition: all 0.3s ease;">
+                        <i class="fas fa-cogs" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; transition: all 0.3s ease;">
+                        <i class="fas fa-question-circle" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Help & Support</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; transition: all 0.3s ease;">
+                        <i class="fas fa-sign-out-alt" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Logout</span>
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+</aside>
+
+        <!-- END MENU SIDEBAR-->
+
+        <!-- PAGE CONTAINER-->
+        <div class="page-container">
+            <!-- HEADER DESKTOP-->
+            <header class="header-desktop">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="header-wrap">
+                            <form class="form-header" action="" method="POST">
+                                <input class="au-input au-input--xl" type="text" name="search" placeholder="Search for datas &amp; reports..." />
+                                <button class="au-btn--submit" type="submit">
+                                    <i class="zmdi zmdi-search"></i>
+                                </button>
+                            </form>
+                            <div class="header-button">
+                                <div class="noti-wrap">
+                                    <div class="noti__item js-item-menu">
+                                        <i class="zmdi zmdi-comment-more" style="color: black;"></i>
+                                        <span class="quantity">1</span>
+                                        <div class="mess-dropdown js-dropdown">
+                                            <div class="mess__title">
+                                                <p>You have 2 news message</p>
+                                            </div>
+                                            <div class="mess__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/mary.png" alt="Henry Evelyn" />
+                                                </div>
+                                                <div class="content">
+                                                    <h6>Henry Evelyn</h6>
+                                                    <p>Have sent a photo</p>
+                                                    <span class="time">3 min ago</span>
+                                                </div>
+                                            </div>
+                                            <div class="mess__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/support.jpeg" alt="Afolabi Sekinat" />
+                                                </div>
+                                                <div class="content">
+                                                    <h6>Afolabi Sekinat</h6>
+                                                    <p>You are now connected on message</p>
+                                                    <span class="time">Yesterday</span>
+                                                </div>
+                                            </div>
+                                            <div class="mess__footer">
+                                                <a href="#">View all messages</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="noti__item js-item-menu">
+                                        <i class="zmdi zmdi-email" style="color: black;"></i>
+                                        <span class="quantity">1</span>
+                                        <div class="email-dropdown js-dropdown">
+                                            <div class="email__title">
+                                                <p>You have 3 New Emails</p>
+                                            </div>
+                                            <div class="email__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/account.jpg" alt="Cynthia Daniel" />
+                                                </div>
+                                                <div class="content">
+                                                    <p>Meeting about new payment...</p>
+                                                    <span>Cynthia Daniel, 3 min ago</span>
+                                                </div>
+                                            </div>
+                                            <div class="email__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/account.jpg" alt="Cynthia Daniel" />
+                                                </div>
+                                                <div class="content">
+                                                    <p>Meeting about new payment...</p>
+                                                    <span>Cynthia Daniel, Yesterday</span>
+                                                </div>
+                                            </div>
+                                            <div class="email__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/hr.jpg" alt="Muideen Akinola" />
+                                                </div>
+                                                <div class="content">
+                                                    <p>Meeting about new dashboard...</p>
+                                                    <span>Muideen, September 28, 2025</span>
+                                                </div>
+                                            </div>
+                                            <div class="email__footer">
+                                                <a href="#">See all emails</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="noti__item js-item-menu">
+                                        <i class="zmdi zmdi-notifications" style="color: black;"></i>
+                                        <span class="quantity">3</span>
+                                        <div class="notifi-dropdown js-dropdown">
+                                            <div class="notifi__title">
+                                                <p>You have 3 Notifications</p>
+                                            </div>
+                                            <div class="notifi__item">
+                                                <div class="bg-c1 img-cir img-40">
+                                                    <i class="zmdi zmdi-email-open"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <p>You got a email notification</p>
+                                                    <span class="date">January 15, 2025 14:30</span>
+                                                </div>
+                                            </div>
+                                            <div class="notifi__item">
+                                                <div class="bg-c2 img-cir img-40">
+                                                    <i class="zmdi zmdi-account-box"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <p>Your account has been blocked</p>
+                                                    <span class="date">January 15, 2025 14:30</span>
+                                                </div>
+                                            </div>
+                                            <div class="notifi__item">
+                                                <div class="bg-c3 img-cir img-40">
+                                                    <i class="zmdi zmdi-file-text"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <p>You got a new file</p>
+                                                    <span class="date">January 15, 2025 14:30</span>
+                                                </div>
+                                            </div>
+                                            <div class="notifi__footer">
+                                                <a href="#">All notifications</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="account-wrap">
+                                    <div class="account-item clearfix js-item-menu">
+                                        <div class="image">
+                                            <img style="border-radius: 50%" src="images/icon/hod.jpg" alt="Innocent Paul O." />
+                                        </div>
+                                        <div class="content">
+                                            <a class="js-acc-btn" href="#">Innocent Paul O.</a>
+                                        </div>
+                                        <div class="account-dropdown js-dropdown">
+                                            <div class="info clearfix">
+                                                <div class="image">
+                                                    <a href="#">
+                                                        <img  style="border-radius: 50%" src="images/icon/hod.jpg" alt="Innocent Paul O." />
+                                                    </a>
+                                                </div>
+                                                <div class="content">
+                                                    <h5 class="name">
+                                                        <a href="#">Innocent Paul O.</a>
+                                                    </h5>
+                                                    <span class="email">admin@coredefense.com</span>
+                                                </div>
+                                            </div>
+                                            <div class="account-dropdown__body">
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">
+                                                        <i class="zmdi zmdi-account"></i>Account</a>
+                                                </div>
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">
+                                                        <i class="zmdi zmdi-settings"></i>Setting</a>
+                                                </div>
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">
+                                                        <i class="zmdi zmdi-money-box"></i>Billing</a>
+                                                </div>
+                                            </div>
+                                            <div class="account-dropdown__footer">
+                                                <a href="#">
+                                                    <i class="zmdi zmdi-power"></i>Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- HEADER DESKTOP-->
+
+            <!-- MAIN CONTENT-->
+            <div class="main-content">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+
+                                <small style="color: #000000;">Feedback/Dashboard</small>
+                                <div class="overview-wrap">
+                                    <h2 class="title-1">Client Feedback</h2>
+                                   
+<!-- <span style="
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #000000; /* Black text */
+    background: linear-gradient(135deg, #FFFFFF, #F7F9FC); /* White + Light Gray */
+    padding: 10px 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    border: 1px solid #E0E4E8;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+">
+    <i class="fas fa-file-invoice-dollar" style="font-size: 1.3rem; color: #1E6AFF;"></i>
+    Available Balance - ₦185M | £45,000
+</span> -->
+
+                                    <button class="au-btn au-btn-icon au-btn--blue">
+                                        <i class="zmdi zmdi-plus"></i>add feedback</button>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="row m-t-25" style="gap: 15px; display: flex; flex-wrap: wrap; padding: 10px;">
+    <!-- Card 1: Total Feedback -->
+    <div class="col-sm-6 col-lg-3" style="flex: 1; min-width: 250px;">
+        <div class="overview-item" style="display: flex; align-items: center; padding: 18px; border-radius: 0px;clip-path: polygon(0 0, 100% 0, 100% 90%, 95% 100%, 0 100%); box-shadow: 0 6px 16px rgba(0,0,0,0.08); background-color: #fff; transition: transform 0.3s ease; border-left: 5px solid #1E6AFF;">
+            <div class="icon" style="font-size: 30px; color: #1E6AFF; margin-right: 12px; flex-shrink: 0;">
+                <i class="fas fa-comments"></i>
+            </div>
+            <div class="text" style="flex: 1;">
+                <h2 style="margin: 0; font-size: 1.8rem; font-weight: 700; color: #1E6AFF;">452</h2>
+                <span style="color: #666; font-size: 0.9rem; font-weight: 500; letter-spacing: 0.5px;">Total Feedback</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 2: CSAT -->
+    <div class="col-sm-6 col-lg-3" style="flex: 1; min-width: 250px;">
+        <div class="overview-item" style="display: flex; align-items: center; padding: 18px; border-radius: 0px; clip-path: polygon(0 0, 100% 0, 100% 90%, 95% 100%, 0 100%); box-shadow: 0 6px 16px rgba(0,0,0,0.08); background-color: #fff; transition: transform 0.3s ease; border-left: 5px solid #28a745;">
+            <div class="icon" style="font-size: 30px; color: #28a745; margin-right: 12px; flex-shrink: 0;">
+                <i class="fas fa-smile"></i>
+            </div>
+            <div class="text" style="flex: 1;">
+                <h2 style="margin: 0; font-size: 1.8rem; font-weight: 700; color: #28a745;">78%</h2>
+                <span style="color: #666; font-size: 0.9rem; font-weight: 500; letter-spacing: 0.5px;">CSAT</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 3: NPS -->
+    <div class="col-sm-6 col-lg-3" style="flex: 1; min-width: 250px;">
+        <div class="overview-item" style="display: flex; align-items: center; padding: 18px; border-radius: 0px;clip-path: polygon(0 0, 100% 0, 100% 90%, 95% 100%, 0 100%); box-shadow: 0 6px 16px rgba(0,0,0,0.08); background-color: #fff; transition: transform 0.3s ease; border-left: 5px solid #ffc107;">
+            <div class="icon" style="font-size: 30px; color: #ffc107; margin-right: 12px; flex-shrink: 0;">
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="text" style="flex: 1;">
+                <h2 style="margin: 0; font-size: 1.8rem; font-weight: 700; color: #ffc107;">35%</h2>
+                <span style="color: #666; font-size: 0.9rem; font-weight: 500; letter-spacing: 0.5px;">NPS</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 4: Rejected / Pending -->
+  <div class="col-sm-6 col-lg-3" style="flex: 1; min-width: 250px;">
+    <div class="overview-item" style="padding: 15px; border-radius: 0px;clip-path: polygon(0 0, 100% 0, 100% 90%, 95% 100%, 0 100%); box-shadow: 0 6px 16px rgba(0,0,0,0.08); background-color: #fff; border-left: 5px solid #dc3545;">
+        <div class="text" style="display: flex; flex-direction: column; gap: 10px; font-size: 1rem; font-weight: 600;">
+            <!-- Rejected -->
+            <div style="display: flex; align-items: center; gap: 10px; color: #dc3545;">
+                <i class="fas fa-times-circle"></i>
+                <span>Rejected</span>
+                <span style="display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 50%; background-color: #dc3545; color: #fff; font-size: 0.9rem; font-weight: bold;">25</span>
+            </div>
+            <!-- Pending -->
+            <div style="display: flex; align-items: center; gap: 10px; color: #ffc107;">
+                <i class="fas fa-hourglass-half"></i>
+                <span>Pending</span>
+                <span style="display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 50%; background-color: #ffc107; color: #000; font-size: 0.9rem; font-weight: bold;">12</span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="row" style="display: flex; gap: 12px; flex-wrap: wrap; margin-top: -25px;">
+    <!-- Feedback by Category -->
+    <div class="col-lg-6" style="flex: 1.1; min-width: 320px;">
+        <div class="au-card" style="background: #FFFFFF; padding: 18px; border-radius: 0px;clip-path: polygon(0 0, 100% 0, 100% 90%, 95% 100%, 0 100%); box-shadow: 0 4px 12px rgba(0,0,0,0.08); height: 320px;">
+            <div style="display: flex; flex-direction: column; height: 100%; align-items: center; justify-content: center;">
+                <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 12px; color: #1E6AFF; display: flex; align-items: center; gap: 6px;">
+                    Feedback Category <i class="fas fa-chart-bar"></i>
+                </h3>
+                <canvas id="feedback-chart" style="width: 90% !important; max-width: 350px; height: 220px !important;"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feedback Sentiment -->
+    <div class="col-lg-6" style="flex: 1.1; min-width: 320px;">
+        <div class="au-card" style="background: #FFFFFF; padding: 18px; border-radius: 0px;clip-path: polygon(0 0, 100% 0, 100% 90%, 95% 100%, 0 100%); box-shadow: 0 4px 12px rgba(0,0,0,0.08); height: 320px;">
+            <div style="display: flex; flex-direction: column; height: 100%; align-items: center; justify-content: center;">
+                <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 12px; color: #1E6AFF; display: flex; align-items: center; gap: 6px;">
+                    Feedback Sentiment <i class="fas fa-chart-pie"></i>
+                </h3>
+                <canvas id="sentiment-chart" style="width: 90% !important; max-width: 280px; height: 220px !important;"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div style="display: flex; gap: 16px; flex-wrap: wrap; margin-top: 25px; font-family: 'Segoe UI', sans-serif;">
+
+    <!-- Client Feedback Table -->
+    <div style="flex: 1.3; min-width: 400px;"> <!-- widened -->
+        <div style="background: #FFFFFF; padding: 20px; border-radius: 12px; box-shadow: 0 6px 16px rgba(0,0,0,0.08); height: 100%;">
+            <h2 style="margin: 0 0 15px; font-size: 1.2rem; font-weight: 700; color: #1E6AFF; display: flex; align-items: center; gap: 6px;">
+                <i class="fas fa-comments"></i> Client Feedback
+            </h2>
+
+            <!-- Status Legend -->
+            <div style="display:flex; gap:12px; font-size:0.85rem; margin-bottom:12px; color:#555;">
+                <span><i class="fas fa-circle" style="color:#28a745; font-size:0.7rem; margin-right:4px;"></i> Approved</span>
+                <span><i class="fas fa-circle" style="color:#ffc107; font-size:0.7rem; margin-right:4px;"></i> Pending</span>
+                <span><i class="fas fa-circle" style="color:#dc3545; font-size:0.7rem; margin-right:4px;"></i> Rejected</span>
+            </div>
+
+            <div style="max-height: 280px; overflow-y: auto; border-radius: 8px; border: 1px solid #eee;">
+                <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+                    <thead style="background: #f9fafc; position: sticky; top: 0; z-index: 1;">
+                        <tr>
+                            <th style="padding: 10px; text-align: left; border-bottom: 1px solid #eee;">Client</th>
+                            <th style="padding: 10px; text-align: left; border-bottom: 1px solid #eee;">Feedback</th>
+                            <th style="padding: 10px; text-align: left; border-bottom: 1px solid #eee;">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="padding: 10px; border-bottom: 1px solid #f2f2f2;">Adeola Johnson 🇳🇬</td>
+                            <td style="padding: 10px; border-bottom: 1px solid #f2f2f2;">Website is easy to use but payments are slow.</td>
+                            <td style="padding: 10px; border-bottom: 1px solid #f2f2f2;">
+                                <span style="background:#ffc107; color:#fff; padding:3px 10px; border-radius:20px; font-size:0.8rem;">
+                                    <i class="fas fa-clock"></i> Pending
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px; border-bottom: 1px solid #f2f2f2;">David Miller 🇺🇸</td>
+                            <td style="padding: 10px; border-bottom: 1px solid #f2f2f2;">Customer service was excellent and quick.</td>
+                            <td style="padding: 10px; border-bottom: 1px solid #f2f2f2;">
+                                <span style="background:#28a745; color:#fff; padding:3px 10px; border-radius:20px; font-size:0.8rem;">
+                                    <i class="fas fa-check-circle"></i> Approved
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px; border-bottom: 1px solid #f2f2f2;">Ngozi Okafor 🇳🇬</td>
+                            <td style="padding: 10px; border-bottom: 1px solid #f2f2f2;">Account validation took than expected.</td>
+                            <td style="padding: 10px; border-bottom: 1px solid #f2f2f2;">
+                                <span style="background:#dc3545; color:#fff; padding:3px 10px; border-radius:20px; font-size:0.8rem;">
+                                    <i class="fas fa-times-circle"></i> Rejected
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px; border-bottom: 1px solid #f2f2f2;">Michael Brown 🇺🇸</td>
+                            <td style="padding: 10px; border-bottom: 1px solid #f2f2f2;">Interface is clean, but needs dark mode.</td>
+                            <td style="padding: 10px; border-bottom: 1px solid #f2f2f2;">
+                                <span style="background:#ffc107; color:#fff; padding:3px 10px; border-radius:20px; font-size:0.8rem;">
+                                    <i class="fas fa-clock"></i> Pending
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px; border-bottom: 1px solid #f2f2f2;">Amaka Eze 🇳🇬</td>
+                            <td style="padding: 10px; border-bottom: 1px solid #f2f2f2;">The pricing is affordable and transparent.</td>
+                            <td style="padding: 10px; border-bottom: 1px solid #f2f2f2;">
+                                <span style="background:#28a745; color:#fff; padding:3px 10px; border-radius:20px; font-size:0.8rem;">
+                                    <i class="fas fa-check-circle"></i> Approved
+                                </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Insights & Actions -->
+    <div style="flex: 1; min-width: 320px;"> <!-- slightly smaller -->
+        <div style="background: #FFFFFF; padding: 20px; border-radius: 12px; box-shadow: 0 6px 16px rgba(0,0,0,0.08); height: 100%;">
+            <h2 style="margin: 0 0 15px; font-size: 1.2rem; font-weight: 700; color: #1E6AFF; display: flex; align-items: center; gap: 6px;">
+                <i class="fas fa-lightbulb"></i> Insights & Actions
+            </h2>
+
+            <div style="margin-bottom: 15px;">
+                <h3 style="font-size: 1rem; margin-bottom: 8px; color:#333; display:flex; align-items:center; gap:6px;">
+    <i class="fas fa-chart-bar" style="color:#1E6AFF;"></i> Feedback Insights
+</h3>
+<ul style="padding-left: 20px; margin: 0; color:#555; font-size:0.9rem; list-style: disc;">
+    <li style="margin-bottom: 6px;">Top requests – Usability improvements</li>
+    <li style="margin-bottom: 6px;">Faster delivery updates</li>
+    <li style="margin-bottom: 6px;">Better payment processing</li>
+</ul>
+            </div>
+
+            <div style="margin-bottom: 15px;">
+               <h3 style="font-size: 1rem; margin-bottom: 8px; color:#333; display:flex; align-items:center; gap:6px;">
+    <i class="fas fa-tasks" style="color:#1E6AFF;"></i> Recommended Actions
+</h3>
+
+                <ul style="padding-left: 20px; margin: 0; color:#555; font-size:0.9rem; list-style: disc;">
+                    <li style="margin-bottom: 6px;">Enhance payment infrastructure</li>
+                    <li style="margin-bottom: 6px;">Improve response speed</li>
+                    <li style="margin-bottom: 6px;">Add dark mode & personalization</li>
+                </ul>
+            </div>
+
+            <!-- Rejection Summary -->
+            <div style="background:#f8faff; border-left: 4px solid #dc3545; padding: 12px; border-radius: 6px; display:flex; justify-content:space-between; align-items:center;">
+                <h3 style="margin:0; font-size:1rem; color:#dc3545; display:flex; align-items:center; gap:6px;">
+                    <i class="fas fa-times-circle"></i> Rejection
+                </h3>
+                <span style="font-weight:700; font-size:1.2rem; color:#dc3545;">57%</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+    
+                       
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="copyright">
+                                    <p>Copyright © 2025 Coredefense. All rights reserved. Developed by <a href="" rel="nofollow" target="_blank">Coredefense</a>.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END MAIN CONTENT-->
+            <!-- END PAGE CONTAINER-->
+        </div>
+
+    </div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Feedback by Category - Bar Chart
+    var ctxFeedback = document.getElementById('feedback-chart');
+    if (ctxFeedback) {
+        new Chart(ctxFeedback.getContext('2d'), {
+            type: 'bar',
+            data: {
+                labels: ['Support', 'Usability', 'Features'],
+                datasets: [{
+                    label: 'Feedback Count',
+                    data: [210, 140, 90],
+                    backgroundColor: '#1E6AFF',
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 250,
+                        ticks: {
+                            stepSize: 50,
+                            font: {
+                                size: 12,
+                                weight: 'bold'
+                            }
+                        }
+                    },
+                    x: {
+                        ticks: {
+                            font: {
+                                size: 12,
+                                weight: 'bold'
+                            }
+                        },
+                        grid: {
+                            display: false
+                        }
+                    }
+                }
+            }
+        });
+    }
+
+    // Feedback Sentiment - Doughnut Chart
+   var ctxSentiment = document.getElementById('sentiment-chart');
+if (ctxSentiment) {
+    new Chart(ctxSentiment.getContext('2d'), {
+        type: 'doughnut',
+        data: {
+            labels: ['Positive', 'Neutral', 'Negative'],
+            datasets: [{
+                data: [81, 21, 15],
+                backgroundColor: ['#1E6AFF', '#4CAF50', '#F44336'],
+                borderWidth: 0
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'bottom',
+                    labels: {
+                        boxWidth: 15,
+                        font: {
+                            size: 13,
+                            weight: 'bold'
+                        },
+                        generateLabels: function(chart) {
+                            const data = chart.data.datasets[0].data;
+                            const total = data.reduce((a, b) => a + b, 0);
+
+                            return chart.data.labels.map((label, i) => {
+                                const value = data[i];
+                                const percentage = ((value / total) * 100).toFixed(1) + '%';
+                                const color = chart.data.datasets[0].backgroundColor[i];
+
+                                return {
+                                    text: `${label} – ${percentage}`, // 👈 Label + percentage
+                                    fillStyle: color,
+                                    strokeStyle: color,
+                                    hidden: isNaN(value) || chart.getDatasetMeta(0).data[i].hidden,
+                                    index: i
+                                };
+                            });
+                        }
+                    }
+                }
+            }
+        }
+    });
+}
+
+});
+</script>
+
+
+    <!-- Jquery JS-->
+    <script src="js/vanilla-utils.js"></script>
+    <!-- Bootstrap JS-->
+    <script src="vendor/bootstrap-5.3.8.bundle.min.js"></script>
+    <!-- Vendor JS       -->
+    <script src="vendor/perfect-scrollbar/perfect-scrollbar-1.5.6.min.js"></script>
+    <script src="vendor/chartjs/chart.umd.js-4.5.0.min.js"></script>
+
+    <!-- Main JS-->
+    <script src="js/bootstrap5-init.js"></script>
+    <script src="js/main-vanilla.js"></script>
+    <script src="js/swiper-bundle-11.2.10.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/modern-plugins.js"></script>
+
+</body>
+
+</html>
+<!-- end document-->

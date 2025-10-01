@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="au theme template">
+    <meta name="author" content="Hau Nguyen">
+    <meta name="keywords" content="au theme template">
+
+    <!-- Title Page-->
+    <title>Admin Dashboard - Coredefense</title>
+    <link rel="shortcut icon" href="./images/fav-icon.png" type="image/x-icon">
+    <!-- Fontfaces CSS-->
+    <link href="css/font-face.css" rel="stylesheet" media="all">
+    <link href="vendor/fontawesome-7.0.1/css/all.min.css" rel="stylesheet" media="all">
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+
+    <!-- Bootstrap CSS-->
+    <link href="vendor/bootstrap-5.3.8.min.css" rel="stylesheet" media="all">
+
+    <!-- Vendor CSS-->
+    <link href="css/aos.css" rel="stylesheet" media="all">
+    <link href="vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+    <link href="css/swiper-bundle-11.2.10.min.css" rel="stylesheet" media="all">
+    <link href="vendor/perfect-scrollbar/perfect-scrollbar-1.5.6.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/theme.css" rel="stylesheet" media="all">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+   
+        
+        <!-- MENU SIDEBAR-->
+       <aside class="menu-sidebar d-none d-lg-block"
+    style="background: linear-gradient(160deg, #1E6AFF, #000000); width: 260px; color: white; font-family: Arial, sans-serif; box-shadow: 2px 0px 10px rgba(0,0,0,0.4);">
+
+    <!-- Logo -->
+    <div class="logo" style="text-align: center; padding: 25px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+        <a href="#">
+            <img src="images/icon/logo.png" alt="Cool Admin" style="width: 140px; transition: transform 0.3s ease;">
+        </a>
+    </div>
+
+    <!-- Navigation -->
+    <div class="menu-sidebar__content js-scrollbar1">
+        <nav class="navbar-sidebar">
+            <ul class="list-unstyled navbar__list" style="padding: 0; margin: 0;">
+
+                <!-- Menu Item Template -->
+                <li style="transition: all 0.3s ease;">
+                    <a href="dashboard.html" class="active"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; font-weight: bold; border-left: 4px solid #ffffff; transition: all 0.3s ease; background: rgba(255,255,255,0.05);">
+                        <i class="fas fa-tachometer-alt" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Dashboard</span>
+                    </a>
+                </li>
+
+                <!-- Other Menu Items -->
+                <li style="transition: all 0.3s ease;">
+                    <a href="revenue.html"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; transition: all 0.3s ease;">
+                        <i class="fas fa-chart-line" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Revenue Chart</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="transaction.html"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; transition: all 0.3s ease;">
+                        <i class="fas fa-exchange-alt" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Transactions Summary</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="feedback.html"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; transition: all 0.3s ease;">
+                        <i class="fas fa-comments" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Client Feedback</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="incident_vulnerability.html"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; transition: all 0.3s ease;">
+                        <i class="fas fa-shield-alt" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Incident & Vulnerability</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; transition: all 0.3s ease;">
+                        <i class="fas fa-file-alt" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Reports</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; transition: all 0.3s ease;">
+                        <i class="fas fa-cogs" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; transition: all 0.3s ease;">
+                        <i class="fas fa-question-circle" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Help & Support</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        style="color: white; display: flex; align-items: center; padding: 15px 20px; text-decoration: none; transition: all 0.3s ease;">
+                        <i class="fas fa-sign-out-alt" style="width: 20px; font-size: 18px;"></i>
+                        <span style="margin-left: 15px; font-size: 16px;">Logout</span>
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+</aside>
+
+        <!-- END MENU SIDEBAR-->
+
+        <!-- PAGE CONTAINER-->
+        <div class="page-container">
+            <!-- HEADER DESKTOP-->
+            <header class="header-desktop">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="header-wrap">
+                            <form class="form-header" action="" method="POST">
+                                <input class="au-input au-input--xl" type="text" name="search" placeholder="Search for datas &amp; reports..." />
+                                <button class="au-btn--submit" type="submit">
+                                    <i class="zmdi zmdi-search"></i>
+                                </button>
+                            </form>
+                            <div class="header-button">
+                                <div class="noti-wrap">
+                                    <div class="noti__item js-item-menu">
+                                        <i class="zmdi zmdi-comment-more" style="color: black;"></i>
+                                        <span class="quantity">1</span>
+                                        <div class="mess-dropdown js-dropdown">
+                                            <div class="mess__title">
+                                                <p>You have 2 news message</p>
+                                            </div>
+                                            <div class="mess__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/mary.png" alt="Henry Evelyn" />
+                                                </div>
+                                                <div class="content">
+                                                    <h6>Henry Evelyn</h6>
+                                                    <p>Have sent a photo</p>
+                                                    <span class="time">3 min ago</span>
+                                                </div>
+                                            </div>
+                                            <div class="mess__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/support.jpeg" alt="Afolabi Sekinat" />
+                                                </div>
+                                                <div class="content">
+                                                    <h6>Afolabi Sekinat</h6>
+                                                    <p>You are now connected on message</p>
+                                                    <span class="time">Yesterday</span>
+                                                </div>
+                                            </div>
+                                            <div class="mess__footer">
+                                                <a href="#">View all messages</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="noti__item js-item-menu">
+                                        <i class="zmdi zmdi-email" style="color: black;"></i>
+                                        <span class="quantity">1</span>
+                                        <div class="email-dropdown js-dropdown">
+                                            <div class="email__title">
+                                                <p>You have 3 New Emails</p>
+                                            </div>
+                                            <div class="email__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/account.jpg" alt="Cynthia Daniel" />
+                                                </div>
+                                                <div class="content">
+                                                    <p>Meeting about new payment...</p>
+                                                    <span>Cynthia Daniel, 3 min ago</span>
+                                                </div>
+                                            </div>
+                                            <div class="email__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/account.jpg" alt="Cynthia Daniel" />
+                                                </div>
+                                                <div class="content">
+                                                    <p>Meeting about new payment...</p>
+                                                    <span>Cynthia Daniel, Yesterday</span>
+                                                </div>
+                                            </div>
+                                            <div class="email__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/hr.jpg" alt="Muideen Akinola" />
+                                                </div>
+                                                <div class="content">
+                                                    <p>Meeting about new dashboard...</p>
+                                                    <span>Muideen, September 28, 2025</span>
+                                                </div>
+                                            </div>
+                                            <div class="email__footer">
+                                                <a href="#">See all emails</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="noti__item js-item-menu">
+                                        <i class="zmdi zmdi-notifications" style="color: black;"></i>
+                                        <span class="quantity">3</span>
+                                        <div class="notifi-dropdown js-dropdown">
+                                            <div class="notifi__title">
+                                                <p>You have 3 Notifications</p>
+                                            </div>
+                                            <div class="notifi__item">
+                                                <div class="bg-c1 img-cir img-40">
+                                                    <i class="zmdi zmdi-email-open"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <p>You got a email notification</p>
+                                                    <span class="date">January 15, 2025 14:30</span>
+                                                </div>
+                                            </div>
+                                            <div class="notifi__item">
+                                                <div class="bg-c2 img-cir img-40">
+                                                    <i class="zmdi zmdi-account-box"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <p>Your account has been blocked</p>
+                                                    <span class="date">January 15, 2025 14:30</span>
+                                                </div>
+                                            </div>
+                                            <div class="notifi__item">
+                                                <div class="bg-c3 img-cir img-40">
+                                                    <i class="zmdi zmdi-file-text"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <p>You got a new file</p>
+                                                    <span class="date">January 15, 2025 14:30</span>
+                                                </div>
+                                            </div>
+                                            <div class="notifi__footer">
+                                                <a href="#">All notifications</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="account-wrap">
+                                    <div class="account-item clearfix js-item-menu">
+                                        <div class="image">
+                                            <img style="border-radius: 50%" src="images/icon/hod.jpg" alt="Innocent Paul O." />
+                                        </div>
+                                        <div class="content">
+                                            <a class="js-acc-btn" href="#">Innocent Paul O.</a>
+                                        </div>
+                                        <div class="account-dropdown js-dropdown">
+                                            <div class="info clearfix">
+                                                <div class="image">
+                                                    <a href="#">
+                                                        <img  style="border-radius: 50%" src="images/icon/hod.jpg" alt="Innocent Paul O." />
+                                                    </a>
+                                                </div>
+                                                <div class="content">
+                                                    <h5 class="name">
+                                                        <a href="#">Innocent Paul O.</a>
+                                                    </h5>
+                                                    <span class="email">admin@coredefense.com</span>
+                                                </div>
+                                            </div>
+                                            <div class="account-dropdown__body">
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">
+                                                        <i class="zmdi zmdi-account"></i>Account</a>
+                                                </div>
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">
+                                                        <i class="zmdi zmdi-settings"></i>Setting</a>
+                                                </div>
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">
+                                                        <i class="zmdi zmdi-money-box"></i>Billing</a>
+                                                </div>
+                                            </div>
+                                            <div class="account-dropdown__footer">
+                                                <a href="#">
+                                                    <i class="zmdi zmdi-power"></i>Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- HEADER DESKTOP-->
+
+            <!-- MAIN CONTENT-->
+            <div class="main-content">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+
+                                <small style="color: #000000;">Transactions/Dashboard</small>
+                                <div class="overview-wrap">
+                                    <h2 class="title-1">Transactions</h2>
+                                   
+<!-- <span style="
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #000000; /* Black text */
+    background: linear-gradient(135deg, #FFFFFF, #F7F9FC); /* White + Light Gray */
+    padding: 10px 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    border: 1px solid #E0E4E8;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+">
+    <i class="fas fa-file-invoice-dollar" style="font-size: 1.3rem; color: #1E6AFF;"></i>
+    Available Balance - ₦185M | £45,000
+</span> -->
+
+                                    <button class="au-btn au-btn-icon au-btn--blue">
+                                        <i class="zmdi zmdi-plus"></i>add transaction</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+<div class="row m-t-25" style="gap: 15px; display: flex; flex-wrap: wrap; padding: 10px;">
+    <!-- Card 1: Total Transactions -->
+    <div class="col-sm-6 col-lg-3" style="flex: 1; min-width: 250px;">
+        <div class="overview-item" style="display: flex; align-items: center; padding: 18px; border-radius: 0px;clip-path: polygon(0 0, 100% 0, 100% 90%, 95% 100%, 0 100%); box-shadow: 0 6px 16px rgba(0,0,0,0.08); background-color: #fff; transition: transform 0.3s ease; border-left: 5px solid #1E6AFF;">
+            <div class="icon" style="font-size: 30px; color: #1E6AFF; margin-right: 12px; flex-shrink: 0;">
+                <i class="fas fa-exchange-alt"></i> <!-- Better: Transactions -->
+            </div>
+            <div class="text" style="flex: 1;">
+                <h2 style="margin: 0; font-size: 1.4rem; font-weight: 700; color: #1E6AFF;">Total Transactions</h2>
+                <span style="color: #666; font-size: 0.9rem; font-weight: 500; letter-spacing: 0.5px;">325,245</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 2: Successful -->
+    <div class="col-sm-6 col-lg-3" style="flex: 1; min-width: 250px;">
+        <div class="overview-item" style="display: flex; align-items: center; padding: 18px; border-radius: 0px; clip-path: polygon(0 0, 100% 0, 100% 90%, 95% 100%, 0 100%); box-shadow: 0 6px 16px rgba(0,0,0,0.08); background-color: #fff; transition: transform 0.3s ease; border-left: 5px solid #28a745;">
+            <div class="icon" style="font-size: 30px; color: #28a745; margin-right: 12px; flex-shrink: 0;">
+                <i class="fas fa-check-circle"></i> <!-- Success -->
+            </div>
+            <div class="text" style="flex: 1;">
+                <h2 style="margin: 0; font-size: 1.4rem; font-weight: 700; color: #28a745;">Successful</h2>
+                <span style="color: #666; font-size: 0.9rem; font-weight: 500; letter-spacing: 0.5px;">312,933</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 3: Failed -->
+    <div class="col-sm-6 col-lg-3" style="flex: 1; min-width: 250px;">
+        <div class="overview-item" style="display: flex; align-items: center; padding: 18px; border-radius: 0px;clip-path: polygon(0 0, 100% 0, 100% 90%, 95% 100%, 0 100%); box-shadow: 0 6px 16px rgba(0,0,0,0.08); background-color: #fff; transition: transform 0.3s ease; border-left: 5px solid #dc3545;">
+            <div class="icon" style="font-size: 30px; color: #dc3545; margin-right: 12px; flex-shrink: 0;">
+                <i class="fas fa-times-circle"></i> <!-- Failure -->
+            </div>
+            <div class="text" style="flex: 1;">
+                <h2 style="margin: 0; font-size: 1.4rem; font-weight: 700; color: #dc3545;">Failed</h2>
+                <span style="color: #666; font-size: 0.9rem; font-weight: 500; letter-spacing: 0.5px;">12,312</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 4: Average Transaction -->
+    <div class="col-sm-6 col-lg-3" style="flex: 1; min-width: 250px;">
+        <div class="overview-item" style="display: flex; align-items: center; padding: 18px; border-radius: 0px;clip-path: polygon(0 0, 100% 0, 100% 90%, 95% 100%, 0 100%); box-shadow: 0 6px 16px rgba(0,0,0,0.08); background-color: #fff; transition: transform 0.3s ease; border-left: 5px solid #ffc107;">
+            <div class="icon" style="font-size: 30px; color: #ffc107; margin-right: 12px; flex-shrink: 0;">
+                <i class="fas fa-coins"></i> <!-- Average Transaction -->
+            </div>
+            <div class="text" style="flex: 1;">
+                <h2 style="margin: 0; font-size: 1.4rem; font-weight: 700; color: #ffc107;">Avg Transaction</h2>
+                <span style="color: #666; font-size: 0.9rem; font-weight: 500; letter-spacing: 0.5px;">£42,312</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="row" style="display: flex; gap: 12px; flex-wrap: wrap; margin-top: -25px;">
+    <!-- Feedback by Category -->
+    <div class="col-lg-4" style="flex: 1.1; min-width: 320px;">
+        <div class="au-card" style="background: #FFFFFF; padding: 18px; border-radius: 0px;clip-path: polygon(0 0, 100% 0, 100% 90%, 95% 100%, 0 100%); box-shadow: 0 4px 12px rgba(0,0,0,0.08); height: 320px;">
+            <div style="display: flex; flex-direction: column; height: 100%; align-items: center; justify-content: center;">
+                <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 12px; color: #1E6AFF; display: flex; align-items: center; gap: 6px;">
+                    Transaction Plan <i class="fas fa-chart-bar"></i>
+                </h3>
+                <canvas id="trans-chart" style="width: 90% !important; max-width: 350px; height: 220px !important;"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feedback Sentiment -->
+    <div class="col-lg-4" style="flex: 1.1; min-width: 320px;">
+        <div class="au-card" style="background: #FFFFFF; padding: 18px; border-radius: 0px;clip-path: polygon(0 0, 100% 0, 100% 90%, 95% 100%, 0 100%); box-shadow: 0 4px 12px rgba(0,0,0,0.08); height: 320px;">
+            <div style="display: flex; flex-direction: column; height: 100%; align-items: center; justify-content: center;">
+                <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 12px; color: #1E6AFF; display: flex; align-items: center; gap: 6px;">
+                    Status Disitribution <i class="fas fa-chart-pie"></i>
+                </h3>
+                <canvas id="status-chart" style="width: 90% !important; max-width: 280px; height: 220px !important;"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4" style="flex: 1.1; min-width: 320px;">
+        <div class="au-card" style="background: #FFFFFF; padding: 18px; border-radius: 0px;clip-path: polygon(0 0, 100% 0, 100% 90%, 95% 100%, 0 100%); box-shadow: 0 4px 12px rgba(0,0,0,0.08); height: 320px;">
+            <div style="display: flex; flex-direction: column; height: 100%; align-items: center; justify-content: center;">
+                <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 12px; color: #1E6AFF; display: flex; align-items: center; gap: 6px;">
+                    Monthly Trend<i class="fas fa-chart-line"></i>
+                </h3>
+                <canvas id="month-chart" style="width: 90% !important; max-width: 280px; height: 220px !important;"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Payment History Card -->
+<div style="flex: 1 1 50%; background-color: white; padding: 20px; margin-top: 25px; border-radius: 0px;
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 98% 100%, 0 100%); box-shadow: 0 4px 12px rgba(0,0,0,0.1); min-width: 400px;">
+    <h3 style="margin-top: 0; margin-bottom: 15px; color: #1E6AFF;">
+        <i class="fas fa-exchange-alt" style="margin-right: 8px;"></i>Payment History
+    </h3>
+
+    <div style="overflow-x:auto;">
+        <table id="payment-table" style="width: 100%; border-collapse: collapse; font-size: 0.95rem;">
+            <thead>
+                <tr style="text-align: left; border-bottom: 1px solid #eee;">
+                    <th style="padding: 10px 8px; min-width:120px;">Date</th>
+                    <th style="padding: 10px 8px; min-width:160px;">Company</th>
+                    <th style="padding: 10px 8px; min-width:160px;">Payer Name</th>
+                    <th style="padding: 10px 8px; min-width:120px;">Amount</th>
+                    <th style="padding: 10px 8px; min-width:70px;">Currency</th>
+                    <th style="padding: 10px 8px; min-width:90px;">Status</th>
+                    <th style="padding: 10px 8px; min-width:160px;">Ref ID</th>
+                    <th style="padding: 10px 8px; min-width:220px;">Reference ID</th>
+                </tr>
+            </thead>
+            <tbody id="payment-body">
+                <!-- rows injected by JS -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Pagination -->
+    <div id="pagination" style="margin-top: 15px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 8px; font-family: Arial, sans-serif;">
+        <!-- pagination buttons inserted by JS -->
+    </div>
+
+    <div style="margin-top:10px; text-align:center; color:#555; font-size:0.9rem;" id="page-info">Page 1 of 500</div>
+</div>
+
+<!-- Script: renders table + pagination -->
+<script>
+(function(){
+    const rowsPerPage = 5;
+    const totalPages = 500; 
+    const availablePages = 10; // now 10 pages = 50 rows
+
+    const companies = [
+        {key: 'Creditcliq', currency: 'NGN'},
+        {key: 'Alfuttaim Energy', currency: 'NGN'},
+        {key: 'Gamina Manufact', currency: 'EUR'},
+        {key: 'Delta Tech', currency: 'EUR'}
+    ];
+
+    const nigeriaNames = [
+        'Chinedu Okoro', 'Adebayo Adewale', 'Ngozi Eze', 'Ifeoma Chukwu', 'Temitope Akin',
+        'Babatunde Oladipo', 'Oluwaseun Adesanya', 'Fatima Ibrahim', 'Uche Nwankwo', 'Kemi Adetola'
+    ];
+    const usNames = [
+        'James Smith', 'Emily Johnson', 'Michael Brown', 'Jessica Davis', 'David Wilson',
+        'Sarah Miller', 'John Anderson', 'Laura Thompson', 'Robert Martinez', 'Olivia Taylor'
+    ];
+
+    function pick(arr, i) { return arr[i % arr.length]; }
+
+    function formatCurrency(amount, currency) {
+        if (currency === 'NGN') return '₦' + Number(amount).toLocaleString('en-NG', {maximumFractionDigits: 0});
+        if (currency === 'EUR') return '€' + Number(amount).toLocaleString('en-IE', {minimumFractionDigits: 2});
+        return amount;
+    }
+
+    function genRef(prefix='R') {
+        return prefix + Math.random().toString(36).substr(2,8).toUpperCase();
+    }
+    function genHexRef() {
+        return '0x' + Array.from({length:16}).map(()=> Math.floor(Math.random()*16).toString(16)).join('').toUpperCase();
+    }
+
+    // Generate dates from Apr 2025 backwards to Jan 2024
+    function generateDates() {
+        const dates = [];
+        let start = new Date(2025, 3, 30); // April 30, 2025
+        let end = new Date(2024, 0, 1);    // Jan 1, 2024
+        while(start >= end && dates.length < rowsPerPage * availablePages) {
+            dates.push(start.toLocaleString('en-US', {month:'short', day:'numeric', year:'numeric'}));
+            start.setDate(start.getDate() - 1);
+        }
+        return dates;
+    }
+    const allDates = generateDates();
+
+    // Company weighting
+    const companySequence = [
+        'Creditcliq','Creditcliq','Creditcliq','Creditcliq',
+        'Alfuttaim Energy','Alfuttaim Energy',
+        'Gamina Manufact','Delta Tech'
+    ];
+
+    const dataRows = [];
+    for (let i=0; i < rowsPerPage * availablePages; i++) {
+        const cmp = companySequence[i % companySequence.length];
+        const currency = (cmp === 'Gamina Manufact' || cmp === 'Delta Tech') ? 'EUR' : 'NGN';
+
+        const amount = currency === 'NGN'
+            ? Math.floor(20000 + Math.random()*200000)
+            : (50 + Math.random()*200).toFixed(2);
+
+        const payer = (currency === 'NGN') ? pick(nigeriaNames,i) : pick(usNames,i);
+
+        const status = (i % 9 === 0) ? 'Failed' : 'Successful';
+
+        dataRows.push({
+            date: allDates[i],
+            company: cmp,
+            name: payer,
+            amount,
+            currency,
+            status,
+            refId: genRef('B'),
+            referenceId: genHexRef()
+        });
+    }
+
+    const tbody = document.getElementById('payment-body');
+    const paginationEl = document.getElementById('pagination');
+    const pageInfo = document.getElementById('page-info');
+
+    function renderPage(page) {
+        tbody.innerHTML = '';
+        pageInfo.textContent = `Page ${page} of ${totalPages}`;
+
+        if (page > availablePages) {
+            tbody.innerHTML = '<tr><td colspan="8" style="padding:12px; color:#666;">No data for this page.</td></tr>';
+            return;
+        }
+
+        const startIdx = (page - 1) * rowsPerPage;
+        const pageRows = dataRows.slice(startIdx, startIdx + rowsPerPage);
+
+        pageRows.forEach(row => {
+            const tr = document.createElement('tr');
+            tr.style.borderBottom = '1px solid #f0f0f0';
+            tr.innerHTML = `
+                <td style="padding:10px 8px;">${row.date}</td>
+                <td style="padding:10px 8px;">${row.company}</td>
+                <td style="padding:10px 8px;">${row.name}</td>
+                <td style="padding:10px 8px; font-weight:700;">${formatCurrency(row.amount,row.currency)}</td>
+                <td style="padding:10px 8px;">${row.currency}</td>
+                <td style="padding:10px 8px; color:${row.status==='Successful' ? '#28a745':'#dc3545'};">${row.status}</td>
+                <td style="padding:10px 8px; font-family: monospace;">${row.refId}</td>
+                <td style="padding:10px 8px; font-family: monospace;">${row.referenceId}</td>
+            `;
+            tbody.appendChild(tr);
+        });
+    }
+
+    function renderPagination(current) {
+        paginationEl.innerHTML = '';
+        const cur = Number(current);
+
+        const prev = document.createElement('a');
+        prev.href = '#';
+        prev.innerHTML = '&laquo;';
+        prev.style.cssText = 'padding:6px 10px;border-radius:4px;border:1px solid #ddd;text-decoration:none;color:#1E6AFF;';
+        prev.addEventListener('click', (e)=>{ e.preventDefault(); if(cur>1) gotoPage(cur-1); });
+        paginationEl.appendChild(prev);
+
+        for (let p=1; p<=10; p++) {
+            const a = document.createElement('a');
+            a.href = '#';
+            a.textContent = p;
+            a.style.cssText = `padding:6px 10px;border-radius:4px;border:1px solid #ddd;text-decoration:none;color:${p===cur?'#fff':'#1E6AFF'};background:${p===cur?'#1E6AFF':'transparent'};`;
+            a.addEventListener('click', (e)=>{ e.preventDefault(); gotoPage(p); });
+            paginationEl.appendChild(a);
+        }
+
+        const dots = document.createElement('span');
+        dots.textContent = '...';
+        dots.style.margin = '0 6px';
+        paginationEl.appendChild(dots);
+
+        const lastBtn = document.createElement('a');
+        lastBtn.href = '#';
+        lastBtn.textContent = totalPages;
+        lastBtn.style.cssText = 'padding:6px 10px;border-radius:4px;border:1px solid #ddd;text-decoration:none;color:#1E6AFF;';
+        lastBtn.addEventListener('click', (e)=>{ e.preventDefault(); gotoPage(totalPages); });
+        paginationEl.appendChild(lastBtn);
+
+        const next = document.createElement('a');
+        next.href = '#';
+        next.innerHTML = '&raquo;';
+        next.style.cssText = 'padding:6px 10px;border-radius:4px;border:1px solid #ddd;text-decoration:none;color:#1E6AFF;';
+        next.addEventListener('click', (e)=>{ e.preventDefault(); if(cur<totalPages) gotoPage(cur+1); });
+        paginationEl.appendChild(next);
+    }
+
+    function gotoPage(page) {
+        renderPage(page);
+        renderPagination(page);
+        location.hash = 'payments-page-' + page;
+    }
+
+    const initialPage = (() => {
+        const m = location.hash.match(/payments-page-(\d+)/);
+        return m ? Number(m[1]) : 1;
+    })();
+
+    gotoPage(initialPage);
+})();
+</script>
+
+    
+                       
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="copyright">
+                                    <p>Copyright © 2025 Coredefense. All rights reserved. Developed by <a href="" rel="nofollow" target="_blank">Coredefense</a>.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END MAIN CONTENT-->
+            <!-- END PAGE CONTAINER-->
+        </div>
+
+    </div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+        // Data for Transaction Plan Chart (Bar Chart)
+        const transCtx = document.getElementById('trans-chart').getContext('2d');
+        new Chart(transCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Plan A', 'Plan B', 'Plan C', 'Plan D', 'Plan E'],
+                datasets: [{
+                    label: 'Transactions by Plan',
+                    data: [150, 90, 110, 70, 160], // Example data
+                    backgroundColor: '#1E6AFF',
+                    borderColor: '#1E6AFF',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function(value) {
+                                return value;
+                            }
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                }
+            }
+        });
+
+        // Data for Status Distribution Chart (Doughnut Chart)
+
+const statusCtx = document.getElementById('status-chart').getContext('2d');
+new Chart(statusCtx, {
+    type: 'doughnut',
+    data: {
+        labels: ['Completed', 'Pending', 'Failed'],
+        datasets: [{
+            label: 'Status Distribution',
+            data: [954, 30, 10], // Example data
+            backgroundColor: [
+                '#1E6AFF', // Main blue
+                '#A0C4FF', // Lighter blue
+                '#D0DFFF'  // Even lighter blue
+            ],
+            hoverOffset: 4
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        cutout: '70%',
+        plugins: {
+            legend: {
+                display: true, // ✅ Show legend
+                position: 'bottom',
+                labels: {
+                    generateLabels: function(chart) {
+                        const data = chart.data;
+                        if (data.labels.length && data.datasets.length) {
+                            const dataset = data.datasets[0];
+                            const total = dataset.data.reduce((a, b) => a + b, 0);
+
+                            return data.labels.map((label, i) => {
+                                const value = dataset.data[i];
+                                const percentage = ((value / total) * 100).toFixed(1) + '%';
+                                return {
+                                    text: label + ' (' + percentage + ')', // ✅ Show percentage in legend
+                                    fillStyle: dataset.backgroundColor[i],
+                                    strokeStyle: dataset.backgroundColor[i],
+                                    index: i
+                                };
+                            });
+                        }
+                        return [];
+                    }
+                }
+            },
+            tooltip: {
+                callbacks: {
+                    label: function(context) {
+                        const dataset = context.dataset;
+                        const total = dataset.data.reduce((a, b) => a + b, 0);
+                        const value = dataset.data[context.dataIndex];
+                        const percentage = ((value / total) * 100).toFixed(1);
+                        return `${context.label}: ${value} (${percentage}%)`; // ✅ Tooltip also shows %
+                    }
+                }
+            }
+        }
+    },
+    plugins: [{
+        // Center text plugin
+        id: 'centerText',
+        beforeDraw: function(chart) {
+            const width = chart.width;
+            const height = chart.height;
+            const ctx = chart.ctx;
+            ctx.restore();
+            const fontSize = (height / 114).toFixed(2);
+            ctx.font = fontSize + "em sans-serif";
+            ctx.textBaseline = "middle";
+
+            const text = "96.0%"; // Central text
+            const textX = Math.round((width - ctx.measureText(text).width) / 2);
+            const textY = height / 2;
+
+            ctx.fillStyle = '#1E6AFF';
+            ctx.fillText(text, textX, textY);
+            ctx.save();
+        }
+    }]
+});
+
+
+        // Data for Monthly Trend Chart (Line Chart)
+        const monthCtx = document.getElementById('month-chart').getContext('2d');
+        new Chart(monthCtx, {
+            type: 'line',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+                datasets: [{
+                    label: 'Monthly Trend',
+                    data: [20, 40, 60, 80, 100, 105], // Example data
+                    fill: false,
+                    borderColor: '#1E6AFF',
+                    tension: 0.3,
+                    pointBackgroundColor: '#1E6AFF',
+                    pointBorderColor: '#fff',
+                    pointBorderWidth: 2,
+                    pointRadius: 5,
+                    pointHoverRadius: 7,
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function(value) {
+                                return value;
+                            }
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                }
+            }
+        });
+    </script>
+
+    <!-- Jquery JS-->
+    <script src="js/vanilla-utils.js"></script>
+    <!-- Bootstrap JS-->
+    <script src="vendor/bootstrap-5.3.8.bundle.min.js"></script>
+    <!-- Vendor JS       -->
+    <script src="vendor/perfect-scrollbar/perfect-scrollbar-1.5.6.min.js"></script>
+    <script src="vendor/chartjs/chart.umd.js-4.5.0.min.js"></script>
+
+    <!-- Main JS-->
+    <script src="js/bootstrap5-init.js"></script>
+    <script src="js/main-vanilla.js"></script>
+    <script src="js/swiper-bundle-11.2.10.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/modern-plugins.js"></script>
+
+</body>
+
+</html>
+<!-- end document-->
